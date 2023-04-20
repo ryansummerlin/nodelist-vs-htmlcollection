@@ -7,5 +7,5 @@ export default () => {
   const divChildNodes = div.childNodes; // NodeList [text, span, text]
   const helloWorld = divChildNodes[0].textContent; // Hello World!\n
   const span = divChildNodes[1]; // <span>Yes!</span>
-  // debugger
+  debugger
 };
